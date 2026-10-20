@@ -7,9 +7,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=venom&height=180&color=0:050B14,50:0A1628,100:003D4D&text=J.A.R.V.I.S.&fontAlign=50&fontAlignY=42&fontSize=52&fontColor=00D4FF&desc=Just%20A%20Rather%20Very%20Intelligent%20System&descAlign=50&descAlignY=68&descSize=14&descColor=7FDBFF&animation=fadeIn&section=header" alt="jarvis capsule" />
 
-<img src="./assets/jarvis-core.svg" width="720" alt="J.A.R.V.I.S. interactive core" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-core.svg?v=2" width="720" alt="J.A.R.V.I.S. interactive core" />
 
-<img src="./assets/jarvis-voice.svg" width="420" alt="voice channel" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-voice.svg?v=2" width="420" alt="voice channel" />
 
 <br />
 
@@ -24,7 +24,7 @@
   <a href="#module-04--diagnostics"><img src="https://img.shields.io/badge/%E2%96%B6_RUN-Diagnostics-00D4FF?style=for-the-badge&labelColor=0a1628" alt="run diagnostics" /></a>
 </p>
 
-<img src="./assets/jarvis-divider.svg" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=2" width="820" alt="divider" />
 
 </div>
 
@@ -47,7 +47,7 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 
 </details>
 
-<img src="./assets/jarvis-divider.svg" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=2" width="820" alt="divider" />
 
 ---
 
@@ -74,7 +74,7 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 
 </details>
 
-<img src="./assets/jarvis-divider.svg" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=2" width="820" alt="divider" />
 
 ---
 
@@ -106,7 +106,7 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 
 </details>
 
-<img src="./assets/jarvis-divider.svg" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=2" width="820" alt="divider" />
 
 ---
 
@@ -132,7 +132,7 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 
 </details>
 
-<img src="./assets/jarvis-divider.svg" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=2" width="820" alt="divider" />
 
 ---
 
@@ -163,7 +163,7 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 
 </details>
 
-<img src="./assets/jarvis-divider.svg" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=2" width="820" alt="divider" />
 
 ---
 
@@ -199,7 +199,7 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 
 </details>
 
-<img src="./assets/jarvis-divider.svg" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=2" width="820" alt="divider" />
 
 ---
 

@@ -1,106 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-label="J.A.R.V.I.S. Interactive HUD">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-label="J.A.R.V.I.S. console">
   <defs>
-    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7FDBFF" stop-opacity="0.95"/>
-      <stop offset="45%" stop-color="#00D4FF" stop-opacity="0.55"/>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#B8F1FF" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#00D4FF" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00D4FF"/>
-      <stop offset="50%" stop-color="#7FDBFF"/>
-      <stop offset="100%" stop-color="#0088AA"/>
+    <linearGradient id="frame" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#00D4FF" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0.15"/>
     </linearGradient>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="strongGlow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
-  <rect width="720" height="420" fill="#050B14"/>
-  <rect x="16" y="16" width="688" height="388" rx="18" fill="#0A1628" stroke="#00D4FF" stroke-opacity="0.35" stroke-width="1.5"/>
+  <rect width="720" height="360" fill="#050B14"/>
+  <rect x="20" y="20" width="680" height="320" rx="12" fill="#0A1628" stroke="#1A3A4A" stroke-width="1"/>
+  <rect x="20" y="20" width="680" height="2" fill="url(#frame)"/>
 
-  <g stroke="#00D4FF" stroke-width="2" fill="none" opacity="0.85">
-    <path d="M36 56 V36 H56"/>
-    <path d="M684 56 V36 H664"/>
-    <path d="M36 364 V384 H56"/>
-    <path d="M684 364 V384 H664"/>
+  <!-- corner marks -->
+  <g stroke="#00D4FF" stroke-width="1.5" fill="none" opacity="0.7">
+    <path d="M40 60 V40 H60"/>
+    <path d="M680 60 V40 H660"/>
+    <path d="M40 300 V320 H60"/>
+    <path d="M680 300 V320 H660"/>
   </g>
 
-  <rect x="28" y="0" width="664" height="2" fill="#00D4FF" opacity="0.55" filter="url(#softGlow)">
-    <animate attributeName="y" values="28;390;28" dur="4.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.15;0.75;0.15" dur="4.5s" repeatCount="indefinite"/>
-  </rect>
+  <!-- left telemetry -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#7FDBFF">
+    <text x="48" y="70">SYSTEM STATUS</text>
+    <text x="48" y="92" fill="#00D4FF">ONLINE</text>
+    <text x="48" y="118" fill="#8B9BB4">CPU</text>
+    <text x="48" y="134" fill="#C9D1D9">82% nominal</text>
+    <text x="48" y="160" fill="#8B9BB4">LINK</text>
+    <text x="48" y="176" fill="#C9D1D9">secure channel</text>
+    <text x="48" y="202" fill="#8B9BB4">CLEARANCE</text>
+    <text x="48" y="218" fill="#FFFFFF">ENGINEER</text>
+  </g>
 
-  <g transform="translate(360 210)">
-    <circle r="148" fill="none" stroke="#00D4FF" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="6 10">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="28s" repeatCount="indefinite"/>
+  <!-- right subject -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#7FDBFF" text-anchor="end">
+    <text x="672" y="70">SUBJECT</text>
+    <text x="672" y="92" fill="#FFFFFF" font-size="14">SURAJIT PAL</text>
+    <text x="672" y="118" fill="#00D4FF">Senior Software Engineer</text>
+    <text x="672" y="138" fill="#C9D1D9">MERN Stack Developer</text>
+    <text x="672" y="170" fill="#8B9BB4">FOCUS</text>
+    <text x="672" y="186" fill="#C9D1D9">SaaS · Payments · Multi-tenant</text>
+    <text x="672" y="212" fill="#8B9BB4">BASE</text>
+    <text x="672" y="228" fill="#C9D1D9">Kolkata / Remote</text>
+    <text x="672" y="254" fill="#8B9BB4">UPTIME</text>
+    <text x="672" y="270" fill="#FFFFFF">3.9+ years</text>
+  </g>
+
+  <!-- center reticle — subtle, no orbiting dots -->
+  <g transform="translate(360 185)">
+    <circle r="78" fill="none" stroke="#1F4A5A" stroke-width="1"/>
+    <circle r="58" fill="none" stroke="#00D4FF" stroke-opacity="0.35" stroke-width="1" stroke-dasharray="4 6">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="40s" repeatCount="indefinite"/>
     </circle>
-    <circle r="126" fill="none" stroke="url(#ringGrad)" stroke-width="2.5" stroke-dasharray="40 18" filter="url(#softGlow)">
-      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="14s" repeatCount="indefinite"/>
+    <circle r="40" fill="none" stroke="#00D4FF" stroke-opacity="0.55" stroke-width="1.5"/>
+    <circle r="28" fill="url(#core)">
+      <animate attributeName="opacity" values="0.65;1;0.65" dur="3.5s" repeatCount="indefinite"/>
     </circle>
-    <circle r="98" fill="none" stroke="#7FDBFF" stroke-opacity="0.7" stroke-width="1.5" stroke-dasharray="2 8">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="9s" repeatCount="indefinite"/>
-    </circle>
-    <path d="M0 -78 A78 78 0 0 1 78 0" fill="none" stroke="#00D4FF" stroke-width="3" stroke-linecap="round" filter="url(#strongGlow)">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.2s" repeatCount="indefinite"/>
-    </path>
-    <circle r="42" fill="url(#coreGlow)">
-      <animate attributeName="r" values="38;46;38" dur="2.4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.75;1;0.75" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="22" fill="#031018" stroke="#00D4FF" stroke-width="2"/>
-    <circle r="6" fill="#FFFFFF">
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.2s" repeatCount="indefinite"/>
-    </circle>
-    <g stroke="#00D4FF" stroke-width="2" opacity="0.8">
-      <line x1="0" y1="-112" x2="0" y2="-120"/>
-      <line x1="0" y1="112" x2="0" y2="120"/>
-      <line x1="-112" y1="0" x2="-120" y2="0"/>
-      <line x1="112" y1="0" x2="120" y2="0"/>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+    <circle r="8" fill="#031018" stroke="#00D4FF" stroke-width="1.5"/>
+    <circle r="2.5" fill="#FFFFFF" opacity="0.9"/>
+
+    <!-- static crosshair ticks -->
+    <g stroke="#00D4FF" stroke-width="1.5" opacity="0.55">
+      <line x1="0" y1="-48" x2="0" y2="-56"/>
+      <line x1="0" y1="48" x2="0" y2="56"/>
+      <line x1="-48" y1="0" x2="-56" y2="0"/>
+      <line x1="48" y1="0" x2="56" y2="0"/>
     </g>
   </g>
 
-  <g font-family="Consolas, 'Courier New', monospace" fill="#7FDBFF" font-size="11">
-    <text x="48" y="72">SYS // ONLINE</text>
-    <text x="48" y="90" fill="#00D4FF">CPU [########--] 82%</text>
-    <text x="48" y="108">NET [SECURE LINK]</text>
-    <text x="48" y="126" fill="#FFFFFF">ID LOCKED</text>
-    <text x="520" y="72">SUBJECT</text>
-    <text x="520" y="90" fill="#FFFFFF" font-size="13">SURAJIT PAL</text>
-    <text x="520" y="108" fill="#00D4FF">SSE · MERN</text>
-    <text x="520" y="126">3.9Y UPTIME</text>
-  </g>
-
-  <g text-anchor="middle" font-family="Consolas, 'Courier New', monospace" filter="url(#softGlow)">
-    <text x="360" y="58" fill="#00D4FF" font-size="20" letter-spacing="4">J.A.R.V.I.S.</text>
-    <text x="360" y="78" fill="#7FDBFF" font-size="10" letter-spacing="3" opacity="0.9">JUST A RATHER VERY INTELLIGENT SYSTEM</text>
-  </g>
-
-  <g text-anchor="middle" font-family="Consolas, 'Courier New', monospace">
-    <text x="360" y="368" fill="#00D4FF" font-size="12" letter-spacing="2">
-      INTERACTIVE CONSOLE · AWAITING COMMAND
-      <animate attributeName="opacity" values="0.35;1;0.35" dur="2s" repeatCount="indefinite"/>
-    </text>
-    <text x="360" y="388" fill="#7FDBFF" font-size="10">CLICK ANY MODULE BELOW TO ENGAGE</text>
-  </g>
-
-  <g transform="translate(360 210)">
-    <circle r="3" fill="#FFFFFF" filter="url(#softGlow)">
-      <animateMotion dur="6s" repeatCount="indefinite" path="M0,-140 A140,140 0 1,1 0,140 A140,140 0 1,1 0,-140"/>
-    </circle>
-    <circle r="2.5" fill="#00D4FF" filter="url(#softGlow)">
-      <animateMotion dur="9s" repeatCount="indefinite" path="M0,115 A115,115 0 1,0 0,-115 A115,115 0 1,0 0,115"/>
-    </circle>
-  </g>
+  <!-- header / footer -->
+  <text x="360" y="52" text-anchor="middle" fill="#00D4FF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="3">J.A.R.V.I.S. CONSOLE</text>
+  <text x="360" y="318" text-anchor="middle" fill="#8B9BB4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">AWAITING COMMAND · SELECT A MODULE BELOW</text>
 </svg>
