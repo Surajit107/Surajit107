@@ -1,43 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="48" viewBox="0 0 820 48" role="img" aria-label="section divider">
-  <!-- solid plate so beams stay visible on GitHub dark/light -->
-  <rect width="820" height="48" fill="#050B14"/>
-
-  <!-- outer guide -->
-  <line x1="40" y1="24" x2="780" y2="24" stroke="#123040" stroke-width="6"/>
-
-  <!-- main rail (solid, no filter dependency) -->
-  <line x1="40" y1="24" x2="360" y2="24" stroke="#00D4FF" stroke-width="2"/>
-  <line x1="460" y1="24" x2="780" y2="24" stroke="#00D4FF" stroke-width="2"/>
-
-  <!-- secondary hairlines -->
-  <line x1="56" y1="16" x2="340" y2="16" stroke="#1F4A5A" stroke-width="1"/>
-  <line x1="480" y1="16" x2="764" y2="16" stroke="#1F4A5A" stroke-width="1"/>
-  <line x1="56" y1="32" x2="340" y2="32" stroke="#1F4A5A" stroke-width="1"/>
-  <line x1="480" y1="32" x2="764" y2="32" stroke="#1F4A5A" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="56" viewBox="0 0 820 56">
+  <!-- Filled shapes only — GitHub Camo drops thin strokes to invisible dots -->
 
   <!-- left bracket -->
-  <path d="M28 12 H48 V36 H28" fill="none" stroke="#00D4FF" stroke-width="2"/>
-  <path d="M54 18 L64 24 L54 30" fill="none" stroke="#7FDBFF" stroke-width="1.5" stroke-linejoin="round"/>
+  <rect x="24" y="14" width="6" height="28" fill="#00D4FF"/>
+  <rect x="24" y="14" width="22" height="4" fill="#00D4FF"/>
+  <rect x="24" y="38" width="22" height="4" fill="#00D4FF"/>
+  <polygon points="54,18 70,28 54,38" fill="#7FDBFF"/>
+
+  <!-- left rail -->
+  <rect x="78" y="20" width="270" height="2" fill="#1F6B7A"/>
+  <rect x="78" y="25" width="270" height="6" fill="#00D4FF"/>
+  <rect x="78" y="34" width="270" height="2" fill="#1F6B7A"/>
+  <rect x="96" y="16" width="3" height="24" fill="#7FDBFF"/>
+
+  <!-- center hub (border via layered fills, no stroke) -->
+  <rect x="366" y="8" width="88" height="40" rx="4" fill="#00D4FF"/>
+  <rect x="370" y="12" width="80" height="32" rx="3" fill="#0A1628"/>
+  <polygon points="410,16 424,28 410,40 396,28" fill="#00D4FF"/>
+  <rect x="406" y="24" width="8" height="8" fill="#050B14"/>
+
+  <!-- right rail -->
+  <rect x="472" y="20" width="270" height="2" fill="#1F6B7A"/>
+  <rect x="472" y="25" width="270" height="6" fill="#00D4FF"/>
+  <rect x="472" y="34" width="270" height="2" fill="#1F6B7A"/>
+  <rect x="721" y="16" width="3" height="24" fill="#7FDBFF"/>
 
   <!-- right bracket -->
-  <path d="M792 12 H772 V36 H792" fill="none" stroke="#00D4FF" stroke-width="2"/>
-  <path d="M766 18 L756 24 L766 30" fill="none" stroke="#7FDBFF" stroke-width="1.5" stroke-linejoin="round"/>
+  <polygon points="766,18 750,28 766,38" fill="#7FDBFF"/>
+  <rect x="790" y="14" width="6" height="28" fill="#00D4FF"/>
+  <rect x="774" y="14" width="22" height="4" fill="#00D4FF"/>
+  <rect x="774" y="38" width="22" height="4" fill="#00D4FF"/>
 
-  <!-- end ticks -->
-  <line x1="72" y1="14" x2="72" y2="34" stroke="#7FDBFF" stroke-width="1.5"/>
-  <line x1="748" y1="14" x2="748" y2="34" stroke="#7FDBFF" stroke-width="1.5"/>
-
-  <!-- center lock -->
-  <g transform="translate(410 24)">
-    <circle r="16" fill="#0A1628" stroke="#00D4FF" stroke-width="2"/>
-    <circle r="11" fill="none" stroke="#1F4A5A" stroke-width="1"/>
-    <rect x="-6" y="-6" width="12" height="12" transform="rotate(45)" fill="none" stroke="#7FDBFF" stroke-width="1.6"/>
-    <circle r="2.5" fill="#00D4FF">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- label chips -->
-  <text x="110" y="44" fill="#3D5A6A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8" letter-spacing="2">SECTION</text>
-  <text x="660" y="44" fill="#3D5A6A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8" letter-spacing="2" text-anchor="end">BREAK</text>
+  <text x="78" y="50" fill="#3D8FA0" font-family="Consolas, Monaco, monospace" font-size="9" letter-spacing="3">MODULE</text>
+  <text x="742" y="50" fill="#3D8FA0" font-family="Consolas, Monaco, monospace" font-size="9" letter-spacing="3" text-anchor="end">BOUNDARY</text>
 </svg>
