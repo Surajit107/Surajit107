@@ -7,9 +7,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=venom&height=180&color=0:050B14,50:0A1628,100:003D4D&text=J.A.R.V.I.S.&fontAlign=50&fontAlignY=42&fontSize=52&fontColor=00D4FF&desc=Apparently%20I%20do%20everything.%20Somehow%20it%20works.&descAlign=50&descAlignY=68&descSize=14&descColor=7FDBFF&animation=fadeIn&section=header" alt="jarvis capsule" />
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-core.svg?v=4" width="720" alt="J.A.R.V.I.S. interactive core" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-core.svg?v=5" width="720" alt="J.A.R.V.I.S. interactive core" />
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-voice.svg?v=4" width="420" alt="voice channel" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-voice.svg?v=5" width="420" alt="voice channel" />
 
 <br />
 
@@ -26,7 +26,7 @@
   <a href="#module-06--current-directives"><img src="https://img.shields.io/badge/%E2%96%B6_RUN-Directives-00D4FF?style=for-the-badge&labelColor=0a1628" alt="run directives" /></a>
 </p>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=4" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=5" width="820" alt="divider" />
 
 </div>
 
@@ -49,7 +49,7 @@ VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=4" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=5" width="820" alt="divider" />
 
 ## MODULE 01 — IDENTITY SCAN
 
@@ -75,36 +75,46 @@ VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=4" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=5" width="820" alt="divider" />
 
 ## MODULE 02 — ARSENAL
 
 <details open>
-<summary><b>Deploy weapons inventory</b></summary>
+<summary><b>Open toolbox — specialization optional</b></summary>
 <br />
 
+```text
+  J.A.R.V.I.S. // inventory scan
+  > requested .... "pick a specialty"
+  > response ..... declined
+  > status ....... loading everything instead
+```
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,express,nestjs,react,nextjs,redux,graphql,mongodb,postgres,redis,prisma,aws,docker,githubactions&theme=dark" alt="arsenal" />
+  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,express,nestjs,react,nextjs,redux,graphql,mongodb,postgres,redis,prisma,aws,docker,githubactions,python,tailwind,cloudflare&theme=dark" alt="arsenal" />
 </p>
+
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&duration=3200&pause=900&color=7FDBFF&center=true&vCenter=true&width=760&height=30&lines=If+it%27s+in+the+ticket%2C+it%27s+in+the+stack.;Niche%3F+No.+Next+problem." alt="arsenal voice" />
 
 </details>
 
 <details>
-<summary><b>Full loadout schema</b></summary>
+<summary><b>Full inventory schema</b></summary>
 <br />
 
-| MODULE | LOADOUT |
+| BAY | CONTENTS |
 | :---: | --- |
-| Languages | TypeScript · JavaScript · Python *(Django — training)* |
+| Languages | TypeScript · JavaScript · Python *(Django — currently bullying me)* |
 | Frontend | Next.js · React · Redux (RTK / Saga) · Tailwind · MUI · Shadcn |
 | Backend | NestJS · Express · Fastify · REST · GraphQL · Socket.IO · MQTT |
-| Data cores | MongoDB · PostgreSQL · MySQL · Redis · Prisma · Sequelize |
-| Payment bay | Stripe · Razorpay · PayPal |
-| Launch systems | AWS · Docker · CI/CD · Cloudflare · Render |
+| Data | MongoDB · PostgreSQL · MySQL · Redis · Prisma · Sequelize |
+| Money stuff | Stripe · Razorpay · PayPal *(when finance starts yelling)* |
+| Cloud / Ops | AWS · Docker · CI/CD · Cloudflare · Render |
+| Reality check | Whatever else the sprint invents at 4:59 PM |
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=4" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=5" width="820" alt="divider" />
 
 ## MODULE 03 — MISSION LOG
 
@@ -128,7 +138,7 @@ VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=4" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=5" width="820" alt="divider" />
 
 ## MODULE 04 — ACTIVE PROTOCOLS
 
@@ -157,7 +167,7 @@ VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=4" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=5" width="820" alt="divider" />
 
 ## MODULE 05 — DIAGNOSTICS
 
@@ -191,7 +201,7 @@ VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=4" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=5" width="820" alt="divider" />
 
 ## MODULE 06 — CURRENT DIRECTIVES
 
