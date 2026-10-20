@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@main/assets/jarvis-divider.svg?v=6" width="820" height="56" alt="module boundary" />
+  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@4b15ee2/assets/jarvis-divider.svg" width="820" height="56" alt="module boundary" />
 </p>
 
 </div>
@@ -52,7 +52,7 @@ VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
 </details>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@main/assets/jarvis-divider.svg?v=6" width="820" height="56" alt="module boundary" />
+  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@4b15ee2/assets/jarvis-divider.svg" width="820" height="56" alt="module boundary" />
 </p>
 
 ## MODULE 01 — IDENTITY SCAN
@@ -80,7 +80,7 @@ VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
 </details>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@main/assets/jarvis-divider.svg?v=6" width="820" height="56" alt="module boundary" />
+  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@4b15ee2/assets/jarvis-divider.svg" width="820" height="56" alt="module boundary" />
 </p>
 
 ## MODULE 02 — ARSENAL
@@ -121,7 +121,7 @@ VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
 </details>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@main/assets/jarvis-divider.svg?v=6" width="820" height="56" alt="module boundary" />
+  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@4b15ee2/assets/jarvis-divider.svg" width="820" height="56" alt="module boundary" />
 </p>
 
 ## MODULE 03 — MISSION LOG
@@ -147,7 +147,7 @@ VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
 </details>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@main/assets/jarvis-divider.svg?v=6" width="820" height="56" alt="module boundary" />
+  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@4b15ee2/assets/jarvis-divider.svg" width="820" height="56" alt="module boundary" />
 </p>
 
 ## MODULE 04 — ACTIVE PROTOCOLS
@@ -178,7 +178,7 @@ VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
 </details>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@main/assets/jarvis-divider.svg?v=6" width="820" height="56" alt="module boundary" />
+  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@4b15ee2/assets/jarvis-divider.svg" width="820" height="56" alt="module boundary" />
 </p>
 
 ## MODULE 05 — DIAGNOSTICS
@@ -214,7 +214,7 @@ VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
 </details>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@main/assets/jarvis-divider.svg?v=6" width="820" height="56" alt="module boundary" />
+  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@4b15ee2/assets/jarvis-divider.svg" width="820" height="56" alt="module boundary" />
 </p>
 
 ## MODULE 06 — CURRENT DIRECTIVES
