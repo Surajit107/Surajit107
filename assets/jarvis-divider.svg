@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="28" viewBox="0 0 820 28">
+  <defs>
+    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00D4FF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="820" height="28" fill="transparent"/>
+  <line x1="40" y1="14" x2="780" y2="14" stroke="url(#beam)" stroke-width="1.5"/>
+  <circle cx="410" cy="14" r="3" fill="#FFFFFF">
+    <animate attributeName="cx" values="60;760;60" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="410" cy="14" r="7" fill="none" stroke="#00D4FF" stroke-width="1">
+    <animate attributeName="cx" values="60;760;60" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="4;9;4" dur="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
