@@ -1,23 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-label="J.A.R.V.I.S. console">
   <defs>
     <radialGradient id="core" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#B8F1FF" stop-opacity="0.9"/>
-      <stop offset="40%" stop-color="#00D4FF" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#FFF1C2" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#F5A623" stop-opacity="0.45"/>
+      <stop offset="70%" stop-color="#C67C14" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#F5A623" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="frame" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.15"/>
-      <stop offset="50%" stop-color="#00D4FF" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0.15"/>
+      <stop offset="0%" stop-color="#F5A623" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#FFD27A" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#F5A623" stop-opacity="0.12"/>
     </linearGradient>
   </defs>
 
-  <rect width="720" height="360" fill="#050B14"/>
-  <rect x="20" y="20" width="680" height="320" rx="12" fill="#0A1628" stroke="#1A3A4A" stroke-width="1"/>
+  <rect width="720" height="360" fill="#080C12"/>
+  <rect x="20" y="20" width="680" height="320" rx="12" fill="#0D1117" stroke="#3A2A12" stroke-width="1"/>
   <rect x="20" y="20" width="680" height="2" fill="url(#frame)"/>
 
   <!-- corner marks -->
-  <g stroke="#00D4FF" stroke-width="1.5" fill="none" opacity="0.7">
+  <g stroke="#F5A623" stroke-width="1.5" fill="none" opacity="0.75">
     <path d="M40 60 V40 H60"/>
     <path d="M680 60 V40 H660"/>
     <path d="M40 300 V320 H60"/>
@@ -25,46 +26,45 @@
   </g>
 
   <!-- left telemetry -->
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#7FDBFF">
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#E8C87A">
     <text x="48" y="70">SYSTEM STATUS</text>
-    <text x="48" y="92" fill="#00D4FF">ONLINE</text>
-    <text x="48" y="118" fill="#8B9BB4">CPU</text>
+    <text x="48" y="92" fill="#F5A623">ONLINE</text>
+    <text x="48" y="118" fill="#8A7A5A">CPU</text>
     <text x="48" y="134" fill="#C9D1D9">82% nominal</text>
-    <text x="48" y="160" fill="#8B9BB4">LINK</text>
+    <text x="48" y="160" fill="#8A7A5A">LINK</text>
     <text x="48" y="176" fill="#C9D1D9">secure channel</text>
-    <text x="48" y="202" fill="#8B9BB4">CLEARANCE</text>
+    <text x="48" y="202" fill="#8A7A5A">CLEARANCE</text>
     <text x="48" y="218" fill="#FFFFFF">ENGINEER</text>
   </g>
 
   <!-- right subject -->
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#7FDBFF" text-anchor="end">
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#E8C87A" text-anchor="end">
     <text x="672" y="70">SUBJECT</text>
     <text x="672" y="92" fill="#FFFFFF" font-size="14">SURAJIT PAL</text>
-    <text x="672" y="118" fill="#00D4FF">Senior Software Engineer</text>
+    <text x="672" y="118" fill="#F5A623">Senior Software Engineer</text>
     <text x="672" y="138" fill="#C9D1D9">MERN Stack Developer</text>
-    <text x="672" y="170" fill="#8B9BB4">FOCUS</text>
+    <text x="672" y="170" fill="#8A7A5A">FOCUS</text>
     <text x="672" y="186" fill="#C9D1D9">Whatever the ticket says</text>
-    <text x="672" y="212" fill="#8B9BB4">BASE</text>
+    <text x="672" y="212" fill="#8A7A5A">BASE</text>
     <text x="672" y="228" fill="#C9D1D9">Kolkata / Remote</text>
-    <text x="672" y="254" fill="#8B9BB4">UPTIME</text>
+    <text x="672" y="254" fill="#8A7A5A">UPTIME</text>
     <text x="672" y="270" fill="#FFFFFF">3.9+ years</text>
   </g>
 
-  <!-- center reticle - subtle, no orbiting dots -->
+  <!-- center reticle — holographic amber core -->
   <g transform="translate(360 185)">
-    <circle r="78" fill="none" stroke="#1F4A5A" stroke-width="1"/>
-    <circle r="58" fill="none" stroke="#00D4FF" stroke-opacity="0.35" stroke-width="1" stroke-dasharray="4 6">
-      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="40s" repeatCount="indefinite"/>
+    <circle r="78" fill="none" stroke="#3A2A12" stroke-width="1"/>
+    <circle r="58" fill="none" stroke="#F5A623" stroke-opacity="0.4" stroke-width="1" stroke-dasharray="4 6">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="36s" repeatCount="indefinite"/>
     </circle>
-    <circle r="40" fill="none" stroke="#00D4FF" stroke-opacity="0.55" stroke-width="1.5"/>
+    <circle r="40" fill="none" stroke="#FFD27A" stroke-opacity="0.55" stroke-width="1.5"/>
     <circle r="28" fill="url(#core)">
-      <animate attributeName="opacity" values="0.65;1;0.65" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3.2s" repeatCount="indefinite"/>
     </circle>
-    <circle r="8" fill="#031018" stroke="#00D4FF" stroke-width="1.5"/>
-    <circle r="2.5" fill="#FFFFFF" opacity="0.9"/>
+    <circle r="8" fill="#0A0804" stroke="#F5A623" stroke-width="1.5"/>
+    <circle r="2.5" fill="#FFF1C2" opacity="0.95"/>
 
-    <!-- static crosshair ticks -->
-    <g stroke="#00D4FF" stroke-width="1.5" opacity="0.55">
+    <g stroke="#F5A623" stroke-width="1.5" opacity="0.6">
       <line x1="0" y1="-48" x2="0" y2="-56"/>
       <line x1="0" y1="48" x2="0" y2="56"/>
       <line x1="-48" y1="0" x2="-56" y2="0"/>
@@ -72,7 +72,6 @@
     </g>
   </g>
 
-  <!-- header / footer -->
-  <text x="360" y="52" text-anchor="middle" fill="#00D4FF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="3">J.A.R.V.I.S. CONSOLE</text>
-  <text x="360" y="318" text-anchor="middle" fill="#8B9BB4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">AWAITING COMMAND - SELECT A MODULE BELOW</text>
+  <text x="360" y="52" text-anchor="middle" fill="#F5A623" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="3">J.A.R.V.I.S. CONSOLE</text>
+  <text x="360" y="318" text-anchor="middle" fill="#8A7A5A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">AWAITING COMMAND - SELECT A MODULE BELOW</text>
 </svg>

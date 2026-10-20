@@ -1,36 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="56" viewBox="0 0 820 56">
-  <!-- Filled shapes only — GitHub Camo drops thin strokes to invisible dots -->
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="36" viewBox="0 0 820 36">
+  <!--
+    Thin animated JARVIS rail — amber cinematic palette.
+    Filled 1–2px bars (Camo-safe). Scan pulse + hub pulse.
+  -->
+  <defs>
+    <linearGradient id="amberRail" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7A4E10" stop-opacity="0.2"/>
+      <stop offset="35%" stop-color="#F5A623" stop-opacity="1"/>
+      <stop offset="65%" stop-color="#FFD27A" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#7A4E10" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
 
-  <!-- left bracket -->
-  <rect x="24" y="14" width="6" height="28" fill="#00D4FF"/>
-  <rect x="24" y="14" width="22" height="4" fill="#00D4FF"/>
-  <rect x="24" y="38" width="22" height="4" fill="#00D4FF"/>
-  <polygon points="54,18 70,28 54,38" fill="#7FDBFF"/>
+  <!-- left bracket (thin) -->
+  <rect x="28" y="10" width="2" height="16" fill="#F5A623"/>
+  <rect x="28" y="10" width="14" height="1.5" fill="#F5A623"/>
+  <rect x="28" y="24.5" width="14" height="1.5" fill="#F5A623"/>
+  <polygon points="48,13 58,18 48,23" fill="#FFD27A"/>
 
-  <!-- left rail -->
-  <rect x="78" y="20" width="270" height="2" fill="#1F6B7A"/>
-  <rect x="78" y="25" width="270" height="6" fill="#00D4FF"/>
-  <rect x="78" y="34" width="270" height="2" fill="#1F6B7A"/>
-  <rect x="96" y="16" width="3" height="24" fill="#7FDBFF"/>
+  <!-- left hairlines + main rail -->
+  <rect x="66" y="14" width="268" height="1" fill="#6B4A1A"/>
+  <rect x="66" y="17.5" width="268" height="2" fill="url(#amberRail)"/>
+  <rect x="66" y="21.5" width="268" height="1" fill="#6B4A1A"/>
+  <rect x="82" y="12" width="1.5" height="12" fill="#E8C87A"/>
 
-  <!-- center hub (border via layered fills, no stroke) -->
-  <rect x="366" y="8" width="88" height="40" rx="4" fill="#00D4FF"/>
-  <rect x="370" y="12" width="80" height="32" rx="3" fill="#0A1628"/>
-  <polygon points="410,16 424,28 410,40 396,28" fill="#00D4FF"/>
-  <rect x="406" y="24" width="8" height="8" fill="#050B14"/>
+  <!-- scan pulse left -->
+  <rect y="16.5" width="18" height="4" rx="1" fill="#FFF1C2" opacity="0.85">
+    <animate attributeName="x" values="66;318;66" dur="3.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.95;0" dur="3.6s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- right rail -->
-  <rect x="472" y="20" width="270" height="2" fill="#1F6B7A"/>
-  <rect x="472" y="25" width="270" height="6" fill="#00D4FF"/>
-  <rect x="472" y="34" width="270" height="2" fill="#1F6B7A"/>
-  <rect x="721" y="16" width="3" height="24" fill="#7FDBFF"/>
+  <!-- center hub (compact) -->
+  <rect x="378" y="7" width="64" height="22" rx="2" fill="#F5A623"/>
+  <rect x="380" y="9" width="60" height="18" rx="1.5" fill="#0D1117"/>
+  <g transform="translate(410 18)">
+    <polygon points="0,-7 7,0 0,7 -7,0" fill="#F5A623">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="8s" repeatCount="indefinite"/>
+    </polygon>
+    <rect x="-2.5" y="-2.5" width="5" height="5" fill="#0D1117"/>
+    <rect x="-1" y="-1" width="2" height="2" fill="#FFF1C2">
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="1.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- right hairlines + main rail -->
+  <rect x="486" y="14" width="268" height="1" fill="#6B4A1A"/>
+  <rect x="486" y="17.5" width="268" height="2" fill="url(#amberRail)"/>
+  <rect x="486" y="21.5" width="268" height="1" fill="#6B4A1A"/>
+  <rect x="736" y="12" width="1.5" height="12" fill="#E8C87A"/>
+
+  <!-- scan pulse right -->
+  <rect y="16.5" width="18" height="4" rx="1" fill="#FFF1C2" opacity="0.85">
+    <animate attributeName="x" values="736;486;736" dur="3.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.95;0" dur="3.6s" repeatCount="indefinite"/>
+  </rect>
 
   <!-- right bracket -->
-  <polygon points="766,18 750,28 766,38" fill="#7FDBFF"/>
-  <rect x="790" y="14" width="6" height="28" fill="#00D4FF"/>
-  <rect x="774" y="14" width="22" height="4" fill="#00D4FF"/>
-  <rect x="774" y="38" width="22" height="4" fill="#00D4FF"/>
+  <polygon points="772,13 762,18 772,23" fill="#FFD27A"/>
+  <rect x="790" y="10" width="2" height="16" fill="#F5A623"/>
+  <rect x="778" y="10" width="14" height="1.5" fill="#F5A623"/>
+  <rect x="778" y="24.5" width="14" height="1.5" fill="#F5A623"/>
 
-  <text x="78" y="50" fill="#3D8FA0" font-family="Consolas, Monaco, monospace" font-size="9" letter-spacing="3">MODULE</text>
-  <text x="742" y="50" fill="#3D8FA0" font-family="Consolas, Monaco, monospace" font-size="9" letter-spacing="3" text-anchor="end">BOUNDARY</text>
+  <text x="66" y="33" fill="#8A6A32" font-family="Consolas, Monaco, monospace" font-size="8" letter-spacing="2.5">MODULE</text>
+  <text x="754" y="33" fill="#8A6A32" font-family="Consolas, Monaco, monospace" font-size="8" letter-spacing="2.5" text-anchor="end">BOUNDARY</text>
 </svg>
