@@ -199,15 +199,15 @@ VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
 │  Language bias ........ ~75% TypeScript · Node/React primary               │
 │  Domain lock .......... Full-stack · Backend · Frontend · Systems          │
 │                                                                            │
-│  NOTE: Public grade reflects open-source signals only. Most of sir's       │
-│  work ships in private / client repos — grade ≠ full capability.           │
+│  NOTE: Cards below read PUBLIC signals only. Private/client work is not     │
+│  counted here — grade ≠ full capability.                                   │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Surajit107&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=F5A623&icon_color=F5A623&text_color=c9d1d9&ring_color=F5A623" alt="diagnostics" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Surajit107&layout=compact&hide_border=true&langs_count=6&bg_color=0d1117&title_color=F5A623&text_color=c9d1d9" alt="language matrix" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Surajit107&show_icons=true&hide_border=true&hide_title=false&cache_seconds=1800&bg_color=0d1117&title_color=F5A623&icon_color=F5A623&text_color=c9d1d9&ring_color=F5A623" alt="GitHub diagnostics" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Surajit107&layout=compact&hide_border=true&langs_count=6&cache_seconds=1800&bg_color=0d1117&title_color=F5A623&text_color=c9d1d9" alt="language matrix" />
 
 <br /><br />
 
