@@ -1,11 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="16" viewBox="0 0 820 16" role="img" aria-label="divider">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="40" viewBox="0 0 820 40" role="img" aria-label="section divider">
   <defs>
-    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#00D4FF" stop-opacity="0.65"/>
+      <stop offset="22%" stop-color="#00D4FF" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#7FDBFF" stop-opacity="0.95"/>
+      <stop offset="78%" stop-color="#00D4FF" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="beamSoft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00D4FF" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="1.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  <line x1="40" y1="8" x2="780" y2="8" stroke="url(#line)" stroke-width="1"/>
-  <circle cx="410" cy="8" r="2" fill="#00D4FF" opacity="0.85"/>
+
+  <!-- secondary rails -->
+  <line x1="48" y1="14" x2="340" y2="14" stroke="url(#beamSoft)" stroke-width="1"/>
+  <line x1="480" y1="14" x2="772" y2="14" stroke="url(#beamSoft)" stroke-width="1"/>
+  <line x1="48" y1="26" x2="340" y2="26" stroke="url(#beamSoft)" stroke-width="1"/>
+  <line x1="480" y1="26" x2="772" y2="26" stroke="url(#beamSoft)" stroke-width="1"/>
+
+  <!-- primary beam -->
+  <line x1="56" y1="20" x2="342" y2="20" stroke="url(#beam)" stroke-width="1.5" filter="url(#glow)"/>
+  <line x1="478" y1="20" x2="764" y2="20" stroke="url(#beam)" stroke-width="1.5" filter="url(#glow)"/>
+
+  <!-- left bracket -->
+  <g stroke="#00D4FF" stroke-width="1.5" fill="none" opacity="0.85">
+    <path d="M36 10 L48 10 L48 30 L36 30"/>
+    <path d="M52 16 L60 20 L52 24" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- right bracket -->
+  <g stroke="#00D4FF" stroke-width="1.5" fill="none" opacity="0.85">
+    <path d="M784 10 L772 10 L772 30 L784 30"/>
+    <path d="M768 16 L760 20 L768 24" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- end ticks -->
+  <g stroke="#7FDBFF" stroke-width="1" opacity="0.7">
+    <line x1="68" y1="12" x2="68" y2="28"/>
+    <line x1="752" y1="12" x2="752" y2="28"/>
+  </g>
+
+  <!-- center node -->
+  <g transform="translate(410 20)" filter="url(#glow)">
+    <circle r="14" fill="#050B14" stroke="#1A3A4A" stroke-width="1"/>
+    <circle r="10" fill="none" stroke="#00D4FF" stroke-opacity="0.45" stroke-width="1" stroke-dasharray="3 3">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="-5" y="-5" width="10" height="10" transform="rotate(45)" fill="none" stroke="#00D4FF" stroke-width="1.4"/>
+    <circle r="2.2" fill="#7FDBFF">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- scan pulse along beam -->
+  <circle r="2" fill="#FFFFFF" opacity="0.85">
+    <animate attributeName="cx" values="70;340;70" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="20;20;20" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.9;0" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2" fill="#FFFFFF" opacity="0.85">
+    <animate attributeName="cx" values="750;480;750" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="20;20;20" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.9;0" dur="5s" repeatCount="indefinite"/>
+  </circle>
 </svg>

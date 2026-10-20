@@ -5,15 +5,15 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=180&color=0:050B14,50:0A1628,100:003D4D&text=J.A.R.V.I.S.&fontAlign=50&fontAlignY=42&fontSize=52&fontColor=00D4FF&desc=I%20ship%20SaaS%20that%20survives%20real%20traffic&descAlign=50&descAlignY=68&descSize=14&descColor=7FDBFF&animation=fadeIn&section=header" alt="jarvis capsule" />
+<img src="https://capsule-render.vercel.app/api?type=venom&height=180&color=0:050B14,50:0A1628,100:003D4D&text=J.A.R.V.I.S.&fontAlign=50&fontAlignY=42&fontSize=52&fontColor=00D4FF&desc=Apparently%20I%20do%20everything.%20Somehow%20it%20works.&descAlign=50&descAlignY=68&descSize=14&descColor=7FDBFF&animation=fadeIn&section=header" alt="jarvis capsule" />
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-core.svg?v=3" width="720" alt="J.A.R.V.I.S. interactive core" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-core.svg?v=4" width="720" alt="J.A.R.V.I.S. interactive core" />
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-voice.svg?v=3" width="420" alt="voice channel" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-voice.svg?v=4" width="420" alt="voice channel" />
 
 <br />
 
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=600&size=20&duration=2500&pause=700&color=00D4FF&center=true&vCenter=true&width=900&height=50&lines=Good+evening.+I+am+J.A.R.V.I.S.;Booting+subject+profile...;Identity+confirmed:+Surajit+Pal;I+ship+SaaS+that+survives+real+traffic;Auth+%C2%B7+Payments+%C2%B7+Multi-tenant+systems;Shall+I+run+a+full+system+diagnostic%3F" alt="jarvis speech" />
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=600&size=18&duration=2600&pause=700&color=00D4FF&center=true&vCenter=true&width=920&height=50&lines=Good+evening.+I+am+J.A.R.V.I.S.;Booting+subject+profile...;Identity+confirmed:+Surajit+Pal;Apparently+I+do+everything.+Somehow+it+works.;Specialization%3F+Cute.+Pass+me+the+ticket.;Shall+I+run+a+full+system+diagnostic%3F" alt="jarvis speech" />
 
 <br />
 
@@ -26,7 +26,7 @@
   <a href="#module-06--current-directives"><img src="https://img.shields.io/badge/%E2%96%B6_RUN-Directives-00D4FF?style=for-the-badge&labelColor=0a1628" alt="run directives" /></a>
 </p>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=3" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=4" width="820" alt="divider" />
 
 </div>
 
@@ -39,17 +39,17 @@
 > biometric match ........ Surajit Pal
 > clearance .............. Senior Software Engineer
 > specialization ......... MERN Stack Developer
-> directives ............. SaaS · Payments · Multi-tenant
+> directives ............. Whatever the ticket says
 > base ................... Kolkata / Remote
 > uplink ................. https://surajit-portfolio.asteriq.in
 
-VOICE: "Sir prefers shipping production systems over presentation decks.
-        Auth, Stripe webhooks, NestJS + Next.js — all within optimal parameters."
+VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
+        Specialization requested. Generalist delivered. Somehow production."
 ```
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=3" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=4" width="820" alt="divider" />
 
 ## MODULE 01 — IDENTITY SCAN
 
@@ -63,7 +63,7 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 | :---: | --- |
 | **Codename** | `Surajit107` |
 | **Role** | Senior Software Engineer · MERN Stack Developer |
-| **Tagline** | I ship SaaS that survives real traffic |
+| **Tagline** | Apparently I do everything. Somehow it works. |
 | **Core stack** | TypeScript · Node.js · React · Next.js · MongoDB · PostgreSQL |
 | **Combat specialties** | NestJS · Express · Fastify · GraphQL · Socket.IO · Stripe |
 | **Cloud armor** | AWS · Docker · CI/CD · Cloudflare · Render |
@@ -75,7 +75,7 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=3" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=4" width="820" alt="divider" />
 
 ## MODULE 02 — ARSENAL
 
@@ -104,7 +104,7 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=3" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=4" width="820" alt="divider" />
 
 ## MODULE 03 — MISSION LOG
 
@@ -128,7 +128,7 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=3" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=4" width="820" alt="divider" />
 
 ## MODULE 04 — ACTIVE PROTOCOLS
 
@@ -157,7 +157,7 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=3" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=4" width="820" alt="divider" />
 
 ## MODULE 05 — DIAGNOSTICS
 
@@ -171,7 +171,7 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 │  Pull requests ........ 41+ (review-ready delivery)                        │
 │  Commits .............. 100+ tracked                                       │
 │  Language bias ........ ~75% TypeScript · Node/React primary               │
-│  Domain lock .......... SaaS · Payments · Multi-tenant · MERN              │
+│  Domain lock .......... Full-stack · Backend · Frontend · Systems          │
 │                                                                            │
 │  NOTE: Public grade reflects open-source signals only. Most of sir's       │
 │  work ships in private / client repos — grade ≠ full capability.           │
@@ -191,7 +191,7 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=3" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=4" width="820" alt="divider" />
 
 ## MODULE 06 — CURRENT DIRECTIVES
 
@@ -201,13 +201,13 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 
 ```text
 ┌─ PRIORITY QUEUE ───────────────────────────────────────────────────────────┐
-│  01  Multi-tenant SaaS architecture                                        │
+│  01  Whatever lands in the sprint (yes, again)                             │
 │  02  Payment lifecycle edge cases (Stripe / Razorpay)                      │
 │  03  NestJS + Next.js product delivery                                     │
 │  04  Python / Django — expanding the toolkit                               │
 │                                                                            │
 │  OPEN CHANNELS FOR COLLABORATION                                           │
-│  → SaaS backends · Stripe systems · realtime ops platforms                 │
+│  → backends · frontends · payments · realtime · infra — surprise me        │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
 
