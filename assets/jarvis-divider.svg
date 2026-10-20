@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="36" viewBox="0 0 820 36">
   <!--
-    Thin animated JARVIS rail — amber cinematic palette.
-    Filled 1–2px bars (Camo-safe). Scan pulse + hub pulse.
+    Thin animated JARVIS rail â€” amber cinematic palette.
+    Filled 1â€“2px bars (Camo-safe). Scan pulse + hub pulse.
   -->
   <defs>
     <linearGradient id="amberRail" x1="0%" y1="0%" x2="100%" y2="0%">

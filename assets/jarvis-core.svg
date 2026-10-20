@@ -51,7 +51,7 @@
     <text x="672" y="270" fill="#FFFFFF">3.9+ years</text>
   </g>
 
-  <!-- center reticle — holographic amber core -->
+  <!-- center reticle - holographic amber core -->
   <g transform="translate(360 185)">
     <circle r="78" fill="none" stroke="#3A2A12" stroke-width="1"/>
     <circle r="58" fill="none" stroke="#F5A623" stroke-opacity="0.4" stroke-width="1" stroke-dasharray="4 6">

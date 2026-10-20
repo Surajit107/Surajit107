@@ -7,9 +7,13 @@
 
 <img src="https://capsule-render.vercel.app/api?type=venom&height=180&color=0:080C12,50:0D1117,100:3D2A0A&text=J.A.R.V.I.S.&fontAlign=50&fontAlignY=42&fontSize=52&fontColor=F5A623&desc=Apparently%20I%20do%20everything.%20Somehow%20it%20works.&descAlign=50&descAlignY=68&descSize=14&descColor=E8C87A&animation=fadeIn&section=header" alt="jarvis capsule" />
 
-<img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@099d4d7/assets/jarvis-core.svg" width="720" alt="J.A.R.V.I.S. interactive core" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-core.svg?v=8" width="720" height="360" alt="J.A.R.V.I.S. interactive core" />
+</p>
 
-<img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@099d4d7/assets/jarvis-voice.svg" width="420" alt="voice channel" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-voice.svg?v=8" width="420" height="56" alt="voice channel" />
+</p>
 
 <br />
 
@@ -27,7 +31,7 @@
 </p>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@099d4d7/assets/jarvis-divider.svg" width="820" height="36" alt="module boundary" />
+  <img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=8" width="820" height="36" alt="module boundary" />
 </p>
 
 </div>
@@ -52,7 +56,7 @@ VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
 </details>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@099d4d7/assets/jarvis-divider.svg" width="820" height="36" alt="module boundary" />
+  <img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=8" width="820" height="36" alt="module boundary" />
 </p>
 
 ## MODULE 01 — IDENTITY SCAN
@@ -80,7 +84,7 @@ VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
 </details>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@099d4d7/assets/jarvis-divider.svg" width="820" height="36" alt="module boundary" />
+  <img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=8" width="820" height="36" alt="module boundary" />
 </p>
 
 ## MODULE 02 — ARSENAL
@@ -121,7 +125,7 @@ VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
 </details>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@099d4d7/assets/jarvis-divider.svg" width="820" height="36" alt="module boundary" />
+  <img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=8" width="820" height="36" alt="module boundary" />
 </p>
 
 ## MODULE 03 — MISSION LOG
@@ -147,7 +151,7 @@ VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
 </details>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@099d4d7/assets/jarvis-divider.svg" width="820" height="36" alt="module boundary" />
+  <img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=8" width="820" height="36" alt="module boundary" />
 </p>
 
 ## MODULE 04 — ACTIVE PROTOCOLS
@@ -178,7 +182,7 @@ VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
 </details>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@099d4d7/assets/jarvis-divider.svg" width="820" height="36" alt="module boundary" />
+  <img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=8" width="820" height="36" alt="module boundary" />
 </p>
 
 ## MODULE 05 — DIAGNOSTICS
@@ -214,7 +218,7 @@ VOICE: "Sir builds across the stack — frontend, backend, payments, infra.
 </details>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Surajit107/Surajit107@099d4d7/assets/jarvis-divider.svg" width="820" height="36" alt="module boundary" />
+  <img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=8" width="820" height="36" alt="module boundary" />
 </p>
 
 ## MODULE 06 — CURRENT DIRECTIVES
