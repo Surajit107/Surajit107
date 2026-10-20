@@ -5,26 +5,28 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=180&color=0:050B14,50:0A1628,100:003D4D&text=J.A.R.V.I.S.&fontAlign=50&fontAlignY=42&fontSize=52&fontColor=00D4FF&desc=Just%20A%20Rather%20Very%20Intelligent%20System&descAlign=50&descAlignY=68&descSize=14&descColor=7FDBFF&animation=fadeIn&section=header" alt="jarvis capsule" />
+<img src="https://capsule-render.vercel.app/api?type=venom&height=180&color=0:050B14,50:0A1628,100:003D4D&text=J.A.R.V.I.S.&fontAlign=50&fontAlignY=42&fontSize=52&fontColor=00D4FF&desc=I%20ship%20SaaS%20that%20survives%20real%20traffic&descAlign=50&descAlignY=68&descSize=14&descColor=7FDBFF&animation=fadeIn&section=header" alt="jarvis capsule" />
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-core.svg?v=2" width="720" alt="J.A.R.V.I.S. interactive core" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-core.svg?v=3" width="720" alt="J.A.R.V.I.S. interactive core" />
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-voice.svg?v=2" width="420" alt="voice channel" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-voice.svg?v=3" width="420" alt="voice channel" />
 
 <br />
 
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=600&size=22&duration=2500&pause=700&color=00D4FF&center=true&vCenter=true&width=820&height=50&lines=Good+evening.+I+am+J.A.R.V.I.S.;Booting+subject+profile...;Identity+confirmed:+Surajit+Pal;Senior+Software+Engineer+%C2%B7+MERN+Stack+Developer;Shall+I+run+a+full+system+diagnostic%3F" alt="jarvis speech" />
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=600&size=20&duration=2500&pause=700&color=00D4FF&center=true&vCenter=true&width=900&height=50&lines=Good+evening.+I+am+J.A.R.V.I.S.;Booting+subject+profile...;Identity+confirmed:+Surajit+Pal;I+ship+SaaS+that+survives+real+traffic;Auth+%C2%B7+Payments+%C2%B7+Multi-tenant+systems;Shall+I+run+a+full+system+diagnostic%3F" alt="jarvis speech" />
 
 <br />
 
 <p>
-  <a href="#module-01--identity-scan"><img src="https://img.shields.io/badge/%E2%96%B6_RUN-Identity_Scan-00D4FF?style=for-the-badge&labelColor=0a1628" alt="run identity" /></a>
+  <a href="#module-01--identity-scan"><img src="https://img.shields.io/badge/%E2%96%B6_RUN-Identity-00D4FF?style=for-the-badge&labelColor=0a1628" alt="run identity" /></a>
   <a href="#module-02--arsenal"><img src="https://img.shields.io/badge/%E2%96%B6_RUN-Arsenal-00D4FF?style=for-the-badge&labelColor=0a1628" alt="run arsenal" /></a>
-  <a href="#module-03--mission-log"><img src="https://img.shields.io/badge/%E2%96%B6_RUN-Mission_Log-00D4FF?style=for-the-badge&labelColor=0a1628" alt="run missions" /></a>
-  <a href="#module-04--diagnostics"><img src="https://img.shields.io/badge/%E2%96%B6_RUN-Diagnostics-00D4FF?style=for-the-badge&labelColor=0a1628" alt="run diagnostics" /></a>
+  <a href="#module-03--mission-log"><img src="https://img.shields.io/badge/%E2%96%B6_RUN-Missions-00D4FF?style=for-the-badge&labelColor=0a1628" alt="run missions" /></a>
+  <a href="#module-04--active-protocols"><img src="https://img.shields.io/badge/%E2%96%B6_RUN-Protocols-00D4FF?style=for-the-badge&labelColor=0a1628" alt="run protocols" /></a>
+  <a href="#module-05--diagnostics"><img src="https://img.shields.io/badge/%E2%96%B6_RUN-Diagnostics-00D4FF?style=for-the-badge&labelColor=0a1628" alt="run diagnostics" /></a>
+  <a href="#module-06--current-directives"><img src="https://img.shields.io/badge/%E2%96%B6_RUN-Directives-00D4FF?style=for-the-badge&labelColor=0a1628" alt="run directives" /></a>
 </p>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=2" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=3" width="820" alt="divider" />
 
 </div>
 
@@ -47,9 +49,7 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=2" width="820" alt="divider" />
-
----
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=3" width="820" alt="divider" />
 
 ## MODULE 01 — IDENTITY SCAN
 
@@ -63,6 +63,7 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 | :---: | --- |
 | **Codename** | `Surajit107` |
 | **Role** | Senior Software Engineer · MERN Stack Developer |
+| **Tagline** | I ship SaaS that survives real traffic |
 | **Core stack** | TypeScript · Node.js · React · Next.js · MongoDB · PostgreSQL |
 | **Combat specialties** | NestJS · Express · Fastify · GraphQL · Socket.IO · Stripe |
 | **Cloud armor** | AWS · Docker · CI/CD · Cloudflare · Render |
@@ -74,9 +75,7 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=2" width="820" alt="divider" />
-
----
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=3" width="820" alt="divider" />
 
 ## MODULE 02 — ARSENAL
 
@@ -88,9 +87,10 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
   <img src="https://skillicons.dev/icons?i=ts,js,nodejs,express,nestjs,react,nextjs,redux,graphql,mongodb,postgres,redis,prisma,aws,docker,githubactions&theme=dark" alt="arsenal" />
 </p>
 
+</details>
+
 <details>
 <summary><b>Full loadout schema</b></summary>
-
 <br />
 
 | MODULE | LOADOUT |
@@ -104,11 +104,7 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 
 </details>
 
-</details>
-
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=2" width="820" alt="divider" />
-
----
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=3" width="820" alt="divider" />
 
 ## MODULE 03 — MISSION LOG
 
@@ -132,11 +128,9 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=2" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=3" width="820" alt="divider" />
 
----
-
-## MODULE 03B — ACTIVE PROTOCOLS
+## MODULE 04 — ACTIVE PROTOCOLS
 
 <details open>
 <summary><b>Sync open-source units</b></summary>
@@ -163,11 +157,9 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=2" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=3" width="820" alt="divider" />
 
----
-
-## MODULE 04 — DIAGNOSTICS
+## MODULE 05 — DIAGNOSTICS
 
 <details open>
 <summary><b>Run full diagnostic sweep</b></summary>
@@ -199,11 +191,9 @@ VOICE: "Sir prefers shipping production systems over presentation decks.
 
 </details>
 
-<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=2" width="820" alt="divider" />
+<img src="https://raw.githubusercontent.com/Surajit107/Surajit107/main/assets/jarvis-divider.svg?v=3" width="820" alt="divider" />
 
----
-
-## MODULE 05 — CURRENT DIRECTIVES
+## MODULE 06 — CURRENT DIRECTIVES
 
 <details open>
 <summary><b>Open priority queue</b></summary>
